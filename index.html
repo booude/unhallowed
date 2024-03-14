@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image-container {
+            /* 
+      Set the height to 100vh (viewport height) to ensure the 
+      container fills the vertical space. 
+    */
+            height: 100vh;
+            overflow: hidden;
+            /* Hide any overflowing parts of the image */
+        }
+
+        .image {
+            /* 
+      Set max-width to 100% to scale down the image 
+      if it's wider than the screen.
+    */
+            max-width: 100%;
+            /* 
+      Set height to auto to maintain the aspect ratio 
+      of the image while scaling.
+    */
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img class="image" src="one_pager.png" alt="Image description">
+    </div>
+</body>
+
+</html>

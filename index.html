@@ -6,36 +6,21 @@
         body {
             margin: 0;
             padding: 0;
-        }
-
-        .image-container {
-            /* 
-      Set the height to 100vh (viewport height) to ensure the 
-      container fills the vertical space. 
-    */
-            height: 100vh;
-            overflow: hidden;
-            /* Hide any overflowing parts of the image */
+            scroll-behavior: smooth;
         }
 
         .image {
-            /* 
-      Set max-width to 100% to scale down the image 
-      if it's wider than the screen.
-    */
-            max-width: 100%;
-            /* 
-      Set height to auto to maintain the aspect ratio 
-      of the image while scaling.
-    */
+            width: 100%;
             height: auto;
+            display: block;
+            margin: 0;
         }
     </style>
 </head>
 
 <body>
     <div class="image-container">
-        <img class="image" src="one_pager.png" alt="Image description">
+        <img class="image" src="one_sheet.png">
     </div>
 </body>
 
